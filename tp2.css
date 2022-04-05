@@ -1,0 +1,75 @@
+.bouton
+{
+    top:250 px;
+position: absolute;
+top:35%;
+left:30%;
+}
+h1
+{
+    text-align: center;
+    padding-top: 5%;
+}
+#difficulte
+{
+top:250 px;
+position: absolute;
+top: 30%;
+left:30%;
+}
+#pointsAccumules
+{
+top:20%;
+position:absolute;
+left:30%;
+}
+
+#secondesRestantes
+{
+ left:30%;
+ top:25%;
+ position:absolute;
+}
+.debutant
+{
+    background-color: black;
+    color:white;
+}
+.intermediaire
+{
+     background-color: red ;
+     color:yellow;
+}
+.avance
+{
+     background-color: blue;
+     color:gray;
+}
+#divImage
+{
+    position:absolute;
+    left:40%;
+    width:600px;
+    height:400px;
+}
+img
+{
+    width:600px;
+    height:400px;
+}
+.table {
+    border-collapse: collapse;
+    margin: 20px;
+    background-image:url('images/debutant.jpg');
+  }
+  .td {
+    border: solid white 1px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+  }
+  .perso {
+    border: none;
+    background: url("images/alien.jpg");
+    width: 50px;
+    height: 50px;

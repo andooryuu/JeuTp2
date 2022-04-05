@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title> La guerre des mondes</title>
+  <link href="tp2.css" rel="stylesheet">
+  <script defer src="tp2.js"></script>
+</head>
+<body class="debutant">
+  Fait par Andrew Kartsakis et Félix Roy
+  <h1>
+      La guerre des mondes
+  </h1>
+      <div id="divImage">
+      </div>
+    <div id="pointsAccumules">
+       <p>
+         <b>Points accumulés:</b> <span id="points">0</span>
+      </p>
+    </div>
+      <div id="secondesRestantes">
+         <p>
+          <b>Secondes restantes:</b><span id="temps">20</span>
+         </p>
+      </div>
+        <select id="difficulte" onchange="changerDifficulte()">
+          <option value="0">Débutant</option>
+          <option value="1">Intermédiaire</option>
+          <option value="2">Avancé</option>
+        </select>
+                <button class="bouton" onclick="jouer()">Jouer</button>
+</body>
+</html>
